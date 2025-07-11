@@ -1,0 +1,40 @@
+📝 COVID-19 Data Analytics — Final Project Report
+1. Introduction
+COVID-19 had a major global impact, and analyzing real-time data can reveal how different countries responded and recovered. This project uses SQL and SQLite to explore a COVID-19 dataset. The aim is to identify trends like top affected countries, global statistics, and country-wise recovery and death rates.
+
+2. Abstract
+The COVID-19 Data Analytics project analyzes a global COVID-19 dataset using SQL queries. The dataset was imported from a CSV file and cleaned using SQLite. Various analytical queries were executed such as total confirmed cases, top affected countries, and death/recovery rates. The results were exported as .csv files, and the entire process was managed using DB Browser for SQLite.
+
+3. Tools Used
+SQLite – Used to store and manage data
+
+DB Browser for SQLite – GUI tool for writing queries and viewing results
+
+Kaggle Dataset – country_wise_latest.csv dataset with country-wise COVID stats
+
+Microsoft Excel (optional) – For viewing exported CSV results
+
+4. Steps Involved in Building the Project
+Importing the Dataset
+The Kaggle dataset was imported into SQLite using DB Browser.
+
+Data Cleaning & Transformation
+A clean table covid_clean was created with properly named columns and casted data types.
+
+Writing Analytical Queries
+SQL queries were written to find:
+
+Top 5 countries by confirmed cases
+
+Countries with highest death/recovery rates
+
+Global totals (confirmed, deaths, recovered, active)
+
+Exporting Results
+The outputs of selected queries were exported to .csv format using DB Browser.
+
+Final Folder Creation
+All project files (SQLite DB, SQL queries, CSVs, and this report) were organized and uploaded to GitHub.
+
+5. Conclusion
+This project helped understand how to perform real-world data analysis using SQL. It involved data cleaning, transformation, writing queries, and interpreting results. The project enhanced skills in database handling and analytical thinking — which are essential for data-related roles and interviews.
